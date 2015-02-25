@@ -1,0 +1,38 @@
+body {
+	color:$body-text;
+	font-family: $font-stack;
+	font-size:$font-size-r;
+	line-height:1.6;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:$header-text;
+}
+h1 {
+	font-family: $font-stack-bold;	
+}
+h6 {
+	color:$primary-blue;
+	text-transform:uppercase;
+	margin-bottom:-10px;
+	font-family: $font-stack-bold;	
+}
+h2 {
+	font-size:20px;
+	line-height:28px;
+	color:$grey;
+}
+h3, .link-text {
+	font-family:$font-stack;
+	text-transform:uppercase;
+	font-size:$font-size-r;
+	letter-spacing:.1em;
+}
+
+b, strong .bold {
+	font-family: $font-stack-bold;
+}
+
+p {
+	color:$body-text;
+}
+

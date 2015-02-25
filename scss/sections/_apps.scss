@@ -1,0 +1,33 @@
+.apps {
+	.text-content {		
+		@extend .col-md-6;
+	}
+	.cards {
+		@extend .row;
+		margin-top: 40px;
+		margin-bottom:20px;
+		h3 {
+			color:$header-text;
+			//font-family: $font-stack-bold;
+		}
+	}
+	.card {
+		@extend .col-md-3;
+		@extend .col-sm-6;
+		@extend .col-xs-12;
+		text-align: center;
+
+	}
+	.view-more {
+		@extend .pull-right;
+		@extend .link-text;
+	}
+}
+.card-inner {
+	@include border-radius(2px);
+	background-color: $white;
+	padding:20px 10px 10px;
+}
+.card-inner img {
+	max-width:100px;
+}

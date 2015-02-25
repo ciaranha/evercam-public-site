@@ -1,0 +1,55 @@
+.use-cases {
+	a {
+		color:$abbey;
+	}
+	.text-content {		
+		@extend .col-md-6;
+	}
+	.title-image {
+		@extend .col-md-6;	
+	}
+	.title-image img {
+		@extend .pull-right;
+	}
+	.btn {
+		margin-top: 30px;
+	}
+}
+.gallery {
+	@extend .row;
+	margin-top: 60px;
+	padding-top:20px;
+	border-top:1px solid $light-grey;
+}
+.use-case {
+	@extend .col-md-4;
+}		
+
+#use-case {
+	header {
+		background-color: $header-background;
+	}
+	section {
+		@extend .container;
+	}
+	.use-case-features {
+		@extend .row;
+	}
+	.use-case-feature {
+		@extend .col-md-6;
+		@extend .col-sm-12;
+		clear: both;
+		margin-bottom:40px;
+	}
+	.use-case-callout {
+		@extend .row;
+		@extend .col-md-6;
+		clear: both;
+		@include border-radius(2px);
+		border: 1px solid $primary-blue;
+		padding: 30px 30px 20px;
+	}
+	h3{
+			margin-top: 0px;
+		}
+}

@@ -1,0 +1,33 @@
+
+#navbar {
+	@extend .navbar-fixed-top;
+	background:rgba(255,255,255,.9);
+	border-bottom:none;
+	height:70px;
+	margin-bottom:0px;
+	padding:10px 0 0;
+}
+
+.navbar-brand {
+	height:70px;
+	padding:8px 0px;
+}
+.navbar-brand img {
+	max-width:170px;
+}
+.menu {
+	ul {
+		@extend .nav;
+		@extend .navbar-nav;
+		@extend .navbar-right;
+		li a {
+			text-transform: uppercase;
+			letter-spacing: .1em;
+			color:$abbey;
+			font-size: 14px;
+			}
+		li a:hover {
+			background-color:none !Important;
+		}
+	}
+}

@@ -1,0 +1,27 @@
+html {
+	width: auto;
+	overflow-x: hidden;
+	
+}
+body {
+	width: auto;
+	overflow-x: hidden;
+	padding-top: 70px;
+}
+section {
+	padding: $section-padding;
+}
+
+.alt-color {
+	background-color:$section-background;
+}
+.title {
+	@extend .row;
+}
+.add-camera, .use-cases, .apps {
+	@extend .container;
+}
+.use-card-inner {
+	@extend .col-md-3;
+}
+

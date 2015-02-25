@@ -1,0 +1,33 @@
+//header
+.banner {
+	@extend .container;
+	padding: 10px 15px 60px;
+	position: relative;
+
+	.btn {
+		margin: 20px 0px 10px;
+	}
+}
+.banner-content {
+	@extend .row;
+	@extend .col-md-6;	
+	margin-top:40px;
+}
+
+.banner-image img {
+	position:absolute;
+	right:-225px;
+}
+.construction-image img {
+	position: absolute;
+	right: -568px;
+	width: 100%;
+	top: 59px;
+	z-index:10000;
+}
+
+@media (max-width: $screen-md-min) { 
+	.banner-image img, .construction-image img {
+		display:none;
+	}
+}

@@ -1,0 +1,18 @@
+.btn {
+	@extend .link-text;
+	@include border-radius(2px);
+	font-size: $font-size-xs;
+}
+.btn-primary {
+	background-color:$primary-blue;
+	border-color:$primary-blue;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+	background-color:lighten($primary-blue, 5);
+	border-color:lighten($primary-blue, 5);
+}
+
+.btn-grey-outline {
+	border:1px solid $grey;
+	color:$abbey;
+}
